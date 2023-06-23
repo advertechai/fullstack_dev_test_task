@@ -1,0 +1,50 @@
+//- Master layout
+
+doctype html
+html(lang='en')
+  head
+    //- Meta
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+
+    meta(name='msapplication-TileColor', content='#0E0E0E')
+    meta(name='template-color', content='#0E0E0E')
+
+    link(rel='manifest', href='manifest.json', crossorigin)
+    meta(name='msapplication-config' content='browserconfig.xml')
+
+    //- Basic Seo
+    block basicSeo
+      meta(name='description' content='Index page')
+      meta(name='keywords', content='index, page')
+      meta(name='author' content='')
+
+    //- Favicons
+    link(rel='shortcut icon' type='image/x-icon' href='assets/imgs/template/favicon.svg')
+
+    //- Title
+    block title
+      title Fullstack Test Task
+
+  body
+    //- Preloadr
+    include ../components/preloader.pug
+
+    //-Topbar
+    block topbar
+
+    //- header
+    block header
+
+    //-Menu mobi
+    include ../components/mobile-menu.pug
+    
+    //- block content
+    main.main
+      block content
+
+    //- Scripts
+    include ../components/script-vendors.pug
+    block scripts-custom
+    include ../components/script-main.pug

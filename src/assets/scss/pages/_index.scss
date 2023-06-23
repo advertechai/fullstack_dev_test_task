@@ -1,0 +1,139 @@
+.box-bg-bottom
+{
+    position: relative;
+    padding: 0px 50px 20px 50px;
+    &::before
+    {
+        content: "";
+        top: 70px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        background-color: $background-bg-2;
+        border-radius: 30px;
+    }
+    .box-video-homepage6
+    {
+        padding: 0px 35px;
+    }
+}
+.box-slider-3
+{
+    background-color: $background-bg-6;
+}
+.pdl-md
+{
+    padding-left: 10px;
+}
+.block-slider-bottom-banner
+{
+    padding-right: 190px;
+    top: -90px;
+    position: relative;
+    z-index: 12;
+    margin-bottom: -50px;
+    .box-swiper .swiper-button-next
+    {
+        top: 80%;
+        right: -190px;
+    }
+    .box-swiper .swiper-button-prev
+    {
+        top: 80%;
+        right: -105px;
+    }
+}
+.swiper-slide-1
+{
+    float: left;
+    width: 30%;
+    .grid-category-style-2
+    {
+        box-shadow: none;
+        &:hover
+        {
+            background-color: $background-white;
+            .category-info
+            {
+                h3
+                {
+                    color: $color-gray-900;
+                }
+            }
+        }
+    }
+    .grid-image-left-category
+    {
+        a
+        {
+            display: flex;
+        }
+    }
+}
+.swiper-slide-2
+{
+    float: left;
+    width: 40%;
+    .grid-category-style-2
+    {
+        display: flex;
+        box-shadow: none;
+        &:hover
+        {
+            background-color: $background-white;
+            .category-info
+            {
+                h3
+                {
+                    color: $color-gray-900;
+                }
+            }
+        }
+        .grid-image-bottom
+        {
+            margin-top: 0px;
+        }
+        .grid-image-left-category
+        {
+            width: 55%;
+            padding-right: 15px;
+            a
+            {
+                display: inline-block;
+            }
+            .category-info
+            {
+                display: inline-block;
+                width: 100%;
+            }
+        }
+        .grid-image-bottom
+        {
+            width: 45%;
+        }
+    }
+}
+.grid-category-style-2
+{
+    padding: 20px 20px 15px 20px;
+    .grid-image-bottom
+    {
+        margin: 20px 0px 0px 0px;
+        img
+        {
+            border-radius: 16px;
+        }
+    }
+}
+.icon-arrow-right-thin
+{
+    display: inline-block;
+    height: 15px;
+    width: 30px;
+    margin: 20px 0px 0px 0px;
+}
+.pr-mb-70
+{
+    padding-right: 70px;
+}

@@ -1,0 +1,946 @@
+.card-grid-1
+{
+    padding: 53px 48px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    &.bg-business
+    {
+        position: relative;
+        &::before
+        {
+            content: "";
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            width: 90px;
+            height: 90px;
+        }
+    }
+    &.bg-local
+    {
+        position: relative;
+        &::before
+        {
+            content: "";
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            width: 90px;
+            height: 90px;
+        }
+    }
+    &.bg-social
+    {
+        position: relative;
+        &::before
+        {
+            content: "";
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            width: 90px;
+            height: 90px;
+        }
+    }
+}
+
+.card-grid-style-2
+{
+    padding: 53px 48px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 16px;
+    position: relative;
+    background: $background-white;
+    box-shadow: $box-shadow-inner;
+    .text-comment
+    {
+        height: 84px;
+        overflow: hidden;
+        width: 100%;
+    }
+    &.card-square
+    {
+        border-radius: 0px;
+        padding: 30px;
+        box-shadow: $box-shadow-2;
+        .text-comment
+        {
+            height: auto;
+        }
+        .img-user-round
+        {
+            img
+            {
+                border-radius: 50%;
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+}
+.card-grid-style-3
+{
+    padding: 40px 40px 10px 40px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 0px;
+    position: relative;
+    background: $background-white;
+    border: 10px solid $background-bg-4;
+    margin-bottom: 30px;
+    &:hover
+    {
+        box-shadow: $box-shadow-2;
+    }
+    .grid-3-img
+    {
+        img
+        {
+            border-radius: 50%;
+            width: 55px;
+            height: 55px;
+        }
+    }
+    .text-desc
+    {
+        height: 115px;
+        overflow: hidden;
+    }
+    &.bd-bg-6
+    {
+        border-color: $background-bg-6;
+    }
+    &.bd-bg-10
+    {
+        border-color: $background-bg-10;
+    }
+    &.bd-bg-9
+    {
+        border-color: $background-bg-9;
+    }
+}
+.card-grid-style-4
+{
+    margin-bottom: 30px;
+    a.text-heading-4
+    {
+        display: block;
+        padding: 15px 0px 25px 0px;
+        color: $color-gray-900;
+        &:hover
+        {
+            color: $color-green-900;
+        }
+    }
+    .grid-4-img
+    {
+        position: relative;
+        padding-bottom: 15px;
+        img {
+            transition: 0.2s;
+        }
+        &::before
+        {
+            content: "";
+            position: absolute;
+            bottom: 0px;
+            right: -20px;
+            width: 100%;
+            border-radius: 16px;
+            background-color: $background-bg-9;
+            top: 20px;
+            transition-duration: 0.2s;
+        }
+        &.color-bg-4
+        {
+            &::before
+            {
+                background-color: $background-bg-4;
+            }
+        }
+        &.color-bg-3
+        {
+            &::before
+            {
+                background-color: $background-bg-3;
+            }
+        }
+        &.color-bg-2
+        {
+            &::before
+            {
+                background-color: $background-bg-2;
+            }
+        }
+        &.color-bg-1
+        {
+            &::before
+            {
+                background-color: $background-bg-1;
+            }
+        }
+        &.color-bg-5
+        {
+            &::before
+            {
+                background-color: $background-bg-5;
+            }
+        }
+        &.color-bg-6
+        {
+            &::before
+            {
+                background-color: $background-bg-6;
+            }
+        }
+        &.color-bg-7
+        {
+            &::before
+            {
+                background-color: $background-bg-7;
+            }
+        }
+        &.color-bg-8
+        {
+            &::before
+            {
+                background-color: $background-bg-8;
+            }
+        }
+        &.color-bg-9
+        {
+            &::before
+            {
+                background-color: $background-bg-9;
+            }
+        }
+        &.color-bg-10
+        {
+            &::before
+            {
+                background-color: $background-bg-10;
+            }
+        }
+        img
+        {
+            position: relative;
+            z-index: 2;
+            border-radius: 16px;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+    &:hover {
+       .grid-4-img {
+            &::before {
+                right: -10px;
+                top: 10px;
+                bottom: 10px;
+                transition-duration: 0.2s;
+            }
+            img {
+                opacity: 0.95;
+                transition: 0.2s;
+            }
+       } 
+    }
+}
+.card-grid-style-5
+{
+    margin-bottom: 50px;
+}
+.card-grid-style-6
+{
+    padding: 53px 48px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 16px;
+    position: relative;
+    background: $background-bg-2;
+    margin-bottom: 30px;
+    .text-comment
+    {
+        height: 84px;
+        overflow: hidden;
+        width: 100%;
+    }
+    &.card-square
+    {
+        border-radius: 0px;
+        padding: 30px;
+        box-shadow: $box-shadow-2;
+        .text-comment
+        {
+            height: auto;
+        }
+        .img-user-round
+        {
+            img
+            {
+                border-radius: 50%;
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+}
+.block-pricing {
+    .box-pricing-item {
+        display: inline-block;
+        width: 100%;
+        padding: 40px 32px;
+        background: $background-white;
+        border-radius: 16px;
+        margin-bottom: 30px;
+        .line-bd-bottom
+        {
+            border-bottom: 1px solid $color-gray-300;
+            padding: 0px 0px 40px 0px;
+            margin-bottom: 21px;
+        }
+        .for-year,
+        .for-month {
+            display: none;
+        }
+        .display-month {
+            display: inline-block;
+        }
+        .display-year {
+            display: inline-block;
+        }
+        .btn-border {
+            border: 1px solid $color-gray-600;
+            color: $color-gray-900;
+        }
+    }
+    .box-info-price {
+        display: inline-block;
+        width: 100%;
+        padding-bottom: 20px;
+        .text-price {
+            font-size: 36px;
+            color: $color-gray-900;
+            font-family: $font-heading;
+            line-height: 46px;
+            font-weight: 600;
+            margin-right: 15px;
+        }
+        .text-month {
+            font-size: 17px;
+            line-height: 23px;
+            color: $color-gray-400;
+        }
+    }
+    .list-package-feature {
+        display: inline-block;
+        width: 100%;
+        padding-bottom: 30px;
+        min-height: 200px;
+        li {
+            display: inline-block;
+            width: 100%;
+            padding: 1px 0px 1px 30px;
+            background: url(../imgs/template/icons/check-circle.svg) no-repeat left center;
+            margin-bottom: 12px;
+            font-size: $font-sm;
+            line-height: 22px;
+            color: $color-gray-900;
+            &.uncheck{
+                background: url(../imgs/template/icons/un-check-circle.svg) no-repeat left center;
+            }
+        }
+    }
+}
+.block-bill-2
+{
+    .slider
+    {
+        background-color: $color-gray-900;
+        &::before
+        {
+            background-color: $color-gray-100;
+        }
+    }
+    .text-billed
+    {
+        color: $color-gray-900;
+    }
+    input:checked + .slider
+    {
+        background-color: $color-green-900;
+    }
+}
+.block-pricing-2
+{
+    .box-pricing-item
+    {
+        border: 1px solid $color-gray-300;
+         &.active, &:hover
+        {
+            background-color: $color-green-900;
+            border: none;
+            .checkbox
+            {
+                background: url(../imgs/template/icons/icon-selected.svg) no-repeat 0px 0px;
+            }
+            .text-heading-5, .text-heading-3, li
+            {
+                color: $color-white !important;
+            }
+            .tag-round
+            {
+                background-color: $color-green-500;
+            }
+            .text-month
+            {
+                color: #BFD1FF !important;
+            }            
+        }
+    }
+}
+.block-pricing-3
+{
+    background-color: $background-white;
+    border-radius: 16px;
+    box-shadow: $box-shadow-1;
+    padding: 40px;
+    .block-pricing-left
+    {
+        background-color: $color-green-900;
+        padding: 40px;
+        border-radius: 16px;
+        color: $color-white;
+        .box-switch
+        {
+            margin-bottom: 20px;
+            border-radius: 28px;
+            background-color: $color-green-500;
+            padding: 7px;
+            display: inline-block;
+            label
+            {
+                margin: 0px;
+            }
+            input
+            {
+                display: none;
+            }
+            span
+            {
+                min-width: 100px;
+                text-align: center;
+                cursor: pointer;
+                display: inline-block;
+                padding: 7px 22px;
+            }
+            .active
+            {
+                border-radius: 24px;
+                background-color: $color-green-900;
+            }
+        }
+        .list-package-feature
+        {
+            li
+            {
+                display: inline-block;
+                width: 100%;
+                padding: 2px 30px 2px 0px;
+                margin-top: 22px;
+                margin-bottom: 22px;
+                font-size: 16px;
+                line-height: 28px;
+                color: $color-white;
+                font-family: $font-heading;
+                font-weight: 400;
+                background: url(../imgs/template/icons/icon-untick.svg) no-repeat right 15px top 1px;
+                &.active
+                {
+                    background: url(../imgs/template/icons/icon-tick.svg) no-repeat right 15px top 1px;
+                }
+            }
+        }
+    }
+    .block-price-item
+    {
+        border: 1px solid $color-gray-400;
+        border-radius: 16px;
+        position: relative;
+        padding: 22px 120px 21px 100px;
+        cursor: pointer;
+        margin-bottom: 24px;
+        .checkbox
+        {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 35px;
+            height: 30px;
+            width: 30px;
+            background: url(../imgs/template/icons/icon-unselect.svg) no-repeat 0px 0px;
+        }
+        .box-info-price
+        {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 15px;
+            .for-year
+            {
+                display: none;
+            }
+            .for-month
+            {
+                display: none;
+            }
+            .display-month {
+                display: inline-block;
+            }
+            .display-year {
+                display: inline-block;
+            }
+        }
+        .tag-round
+        {
+            border-radius: 14px;
+            background-color: $color-gray-500;
+            display: inline-block;
+            padding: 2px 15px;
+            color: $color-white;
+        }
+        &.active, &:hover
+        {
+            background-color: $color-green-900;
+            .checkbox
+            {
+                background: url(../imgs/template/icons/icon-selected.svg) no-repeat 0px 0px;
+            }
+            .text-heading-5, .text-heading-3
+            {
+                color: $color-white !important;
+            }
+            .tag-round
+            {
+                background-color: $color-green-500;
+            }
+            .text-month
+            {
+                color: #BFD1FF !important;
+            }
+        }
+    }
+}
+.card-list-style-1
+{
+    padding: 0px 140px 30px 0px;
+    position: relative;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid $color-gray-200;
+    a
+    {
+        color: $color-gray-900;
+        &:hover
+        {
+            color: $color-green-900;
+        }
+    }
+    .style-1-img
+    {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 120px;
+        padding: 0px 10px 10px 0px;
+        img
+        {
+            position: relative;
+            z-index: 2;
+            border-radius: 8px;
+        }
+        &::before
+        {
+            content: "";
+            position: absolute;
+            bottom: 5px;
+            right: -5px;
+            width: calc(100% - 10px);
+            border-radius: 8px;
+            background-color: #D1ECFD;
+            top: 10px;
+            z-index: 1;
+            transition-duration: 0.2s;
+        }
+        &.color-bg-4
+        {
+            &::before
+            {
+                background-color: $background-bg-4;
+            }
+        }
+        &.color-bg-3
+        {
+            &::before
+            {
+                background-color: $background-bg-3;
+            }
+        }
+        &.color-bg-2
+        {
+            &::before
+            {
+                background-color: $background-bg-2;
+            }
+        }
+        &.color-bg-1
+        {
+            &::before
+            {
+                background-color: $background-bg-1;
+            }
+        }
+        &.color-bg-5
+        {
+            &::before
+            {
+                background-color: $background-bg-5;
+            }
+        }
+        &.color-bg-6
+        {
+            &::before
+            {
+                background-color: $background-bg-6;
+            }
+        }
+        &.color-bg-7
+        {
+            &::before
+            {
+                background-color: $background-bg-7;
+            }
+        }
+        &.color-bg-8
+        {
+            &::before
+            {
+                background-color: $background-bg-8;
+            }
+        }
+        &.color-bg-9
+        {
+            &::before
+            {
+                background-color: $background-bg-9;
+            }
+        }
+        &.color-bg-10
+        {
+            &::before
+            {
+                background-color: $background-bg-10;
+            }
+        }
+    }
+    &:hover {
+        .style-1-img {
+            &::before
+            {
+                bottom: 10px;
+                right: 0;
+                transition-duration: 0.2s;
+            }
+        }
+    }
+}
+.grid-category-2
+{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 60px;
+    .grid-category-image
+    {
+        margin: 0px 0px 20px 0px;
+    }
+    .category-info-bottom
+    {
+        display: flex;
+        margin: 20px 0px 0px 0px;
+        padding-top: 30px;
+        border-top: 1px solid $color-gray-200;
+        *
+        {
+            font-size: $font-xxs;
+            line-height: 16px;
+            color: $color-green-900;
+            font-family: $font-heading;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:hover
+        {
+            color: $color-gray-900;
+        }
+        span
+        {
+            color: $color-gray-500;
+        }
+        .link-category
+        {
+            width: 75%;
+        }
+        .link-readmore
+        {
+            width: 25%;
+            text-align: right;
+            a
+            {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.product-item-1
+{
+    position: relative;
+    border: 1px solid $color-gray-200;
+    padding: 10px 10px 10px 10px;
+    border-radius: 16px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+    &:hover
+    {
+        box-shadow: $box-shadow-2;
+
+    }
+    .product-image
+    {
+        width: 150px;
+        margin: 0px 0px 0px 0px;
+        padding: 5px 0px 0px 0px;
+        float: left;
+        text-align: center;
+        img
+        {
+            max-height: 150px;
+        }
+    }
+    .product-info
+    {
+        display: block;
+        padding: 20px 0px 20px 160px;
+        .title-product
+        {
+            color: $color-gray-900;
+            font-size: 26px;
+            font-family: $font-text;
+            line-height: 32px;
+            margin-bottom: 10px;
+        }
+        .price-regular
+        {
+            font-size: 28px;
+            font-family: $font-text;
+            line-height: 34px;
+            color: $color-gray-900;
+        }
+        .price-line
+        {
+            color: $color-gray-500;
+            text-decoration: line-through;
+        }
+    }
+}
+
+.product-item-2
+{
+    position: relative;
+    border: 1px solid $color-gray-200;
+    padding: 10px 10px 10px 10px;
+    border-radius: 16px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: $background-white;
+    &:hover
+    {
+        box-shadow: $box-shadow-2;
+        .box-quick-view
+        {
+            display: block;
+            opacity: 1;
+            visibility: visible;
+            transition-duration: 0.2s;
+        }
+    }
+    .box-quick-view
+    {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+        transition-duration: 0.2s;
+        .quick-view
+        {
+            position: absolute;
+            top: 110px;
+            left: 0px;
+            right: 0px;
+            width: 150px;
+            border: 1px solid $color-gray-300;
+            border-radius: 8px;
+            display: flex;
+            margin: auto;
+            overflow: hidden;
+            .like-product
+            {
+                padding: 10px;
+                width: 33.33%;
+                display: inline-block;
+                height: 46px;
+            }
+            .shuffle-product
+            {
+                // background: $background-white url(../imgs/page/homepage5/shuffle.svg) no-repeat center;
+                padding: 10px;
+                width: 33.33%;
+                display: inline-block;
+                height: 46px;
+                border-right: 1px solid $color-gray-200;
+                border-left: 1px solid $color-gray-200;
+            }
+            .view-product
+            {
+                padding: 10px;
+                width: 34%;
+                display: inline-block;
+                height: 46px;
+            }
+            a:hover
+            {
+                background-color: $color-gray-100;
+            }
+        }
+    }
+    .product-image
+    {
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+        padding: 5px 0px 0px 0px;
+        float: left;
+        text-align: center;
+        min-height: 220px;
+        height: 220px;
+        line-height: 220px;
+        position: relative;
+        img
+        {
+            display: inline-block;
+            max-width: 80%;
+            vertical-align: middle;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            max-height: 100%;
+        }
+    }
+    .product-info
+    {
+        display: block;
+        padding: 20px 0px 20px 0px;
+        a
+        {
+            &:hover
+            {
+                h3
+                {
+                    color: $color-green-900 !important;
+                }
+            }
+        }
+        .box-prices
+        {
+            width: 50%;
+            .price-regular
+            {
+                font-size: 22px;
+                font-family: $font-heading;
+                line-height: 24px;
+                font-weight: bold;
+                color: $color-green-900;
+            }
+            .price-line
+            {
+                font-size: 14px;
+                line-height: 19px;
+                color: $color-gray-400;
+                text-decoration: line-through;
+            }
+        }
+        .button-add
+        {
+            width: 50%;
+        }
+        .rating
+        {
+            .box-rating
+            {
+                display: inline-block;
+                margin-right: 5px;
+                span
+                {
+                    display: inline-block;
+                    vertical-align: top;
+                }
+            }
+        }
+    }
+}
+.product-item-3
+{
+    padding: 25px;
+    margin-bottom: 40px;
+    &:hover
+    {
+        border-color: #BEE1E6;
+    }
+    .product-image
+    {
+        min-height: auto;
+        height: auto;
+        line-height: normal;
+        padding-top: 0px;
+        margin-bottom: 30px;
+        img
+        {
+            max-width: 100%;
+            border-radius: 16px;
+            width: 100%;
+        }
+    }
+    .product-info
+    {
+        padding-bottom: 0px;
+    }
+    .location-icon, .calendar-icon
+    {
+        font-size: $font-xxs;
+        line-height: 16px;
+        color: $color-gray-500;
+        font-family: $font-heading;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+        padding: 0px 0px 0px 16px;
+    }
+    .calendar-icon
+    {
+        padding-left: 20px;
+    }
+}

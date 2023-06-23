@@ -1,0 +1,16 @@
+header.header.sticky-bar
+  .container
+    .main-header
+      .header-left
+        .header-logo
+          a.d-flex(href='index.html')
+            img(alt='Logo' src='assets/imgs/template/logo.svg')
+        .header-nav
+          include ../components/main-menu.pug          
+          .burger-icon.burger-icon-white
+            span.burger-icon-top
+            span.burger-icon-mid
+            span.burger-icon-bottom
+      .header-right
+        .block-signin
+          a.btn.btn-default.hover-up.icon-arrow-right(href='page-signup.html') Get Started

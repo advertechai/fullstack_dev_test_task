@@ -1,0 +1,42 @@
+// Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// Vendors
+@import
+  'vendors/vendors-import';
+
+// Base stuff
+@import
+  'base/common',
+  'base/animation',
+  'base/typography';
+
+// Components
+@import
+  'components/buttons',
+  'components/form',
+  'components/slider',
+  'components/slider',
+  'components/noUISlider',
+  'components/card',
+  'components/tabs',
+  'components/misc',
+  'components/banners';
+
+// Layout-related sections
+@import
+  'layout/header',
+  'layout/navigation',
+  'layout/sidebar',
+  'layout/spacing';
+
+// Page-specific styles
+@import
+  'pages/index';
+
+  // Responsive
+@import
+  'layout/responsive';
