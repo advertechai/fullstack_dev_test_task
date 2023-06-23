@@ -30,7 +30,9 @@ Json format example:
 ```
 
 **4.** Register any free domain name
+
 **5.** Deploy current project to any free static website hosting
+
 **6.** Attach previously registered domain to the deployed project 
 
 ### Task result:
