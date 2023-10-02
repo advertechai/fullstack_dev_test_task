@@ -1,0 +1,20 @@
+.myform {
+  &__input,
+  &__textarea {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 20px 30px;
+    color: $color-gray-400;
+  }
+  &__button {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+
+    p {
+      color: $color-gray-500;
+      font-size: 14px;
+    }
+  }
+}

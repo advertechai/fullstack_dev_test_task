@@ -1,0 +1,23 @@
+section.contact-us
+  .container
+    .contact-us__container
+      .contact-us__title
+        span.contact-us__tag Contact us
+        h3.contact-us__heading Have an project in mind?
+        p.contact-us__body The right move at the right time saves your investment. live the dream of expanding your business.
+        img.contact-us__icon(src='assets/imgs/template/icons/wave 1.svg')
+      .contact-us__content
+        .contact-us__info.info
+          .info__heading
+            img(src="assets/imgs/template/icons/fi-sr-home 1.svg")
+            h5 Corporation
+          a.info__map(href='http://maps.google.com/?q=1200 4517 Washington Ave. Manchester, Kentucky 39495') 4517 Washington Ave. Manchester, Kentucky 39495
+          a.info__phone(href='tel:(239) 555-0108') (239) 555-0108
+          a.info__mail(href='mailto:contact@company.com') contact@company.com
+        form.contact-us__form.myform(action='https://api.byteplex.info/api/test/contact/')
+          input(type="text", placeholder='Name', required)#name.myform__input
+          input(type="email", placeholder='Email', required)#email.myform__input
+          textarea.myform__textarea(placeholder='Message', rows=6, required)#message
+          .myform__button
+            btn.btn.btn-black.icon-arrow-right-white(type='submit')#submit Send Message
+            p By clicking contact us button, you agree our terms and policy,

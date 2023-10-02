@@ -1,0 +1,28 @@
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  &__icon {
+    background: $color-gray-200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 80px;
+
+    border-radius: 999px;
+    width: 80px;
+    height: 80px;
+    img {
+      display: inline-block;
+    }
+  }
+  &__content {
+    h4 {
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+}
