@@ -1,0 +1,33 @@
+.awesome {
+  position: relative;
+  height: 800px;
+  background-color: $color-orange-100;
+  overflow: hidden;
+
+  &__content {
+    position: relative;
+    z-index: 10;
+    margin-top: 156px;
+    width: 702px;
+  }
+
+  &__heading {
+    height: 304px;
+    margin-bottom: 7px;
+    .green {
+      color: $color-green-900;
+    }
+  }
+
+  &__paragraph {
+    font-size: 24px;
+    height: 116px;
+  }
+  &__image {
+    position: absolute;
+    bottom: 0;
+    right: 140px;
+    height: 760px;
+    width: 726px;
+  }
+}

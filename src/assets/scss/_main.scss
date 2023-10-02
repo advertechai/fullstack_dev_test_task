@@ -24,14 +24,20 @@
   'components/card',
   'components/tabs',
   'components/misc',
-  'components/banners';
+  'components/banners',
+  'components/feature',
+  'components/info',
+  'components/myform';
 
 // Layout-related sections
 @import
   'layout/header',
   'layout/navigation',
   'layout/sidebar',
-  'layout/spacing';
+  'layout/spacing',
+  'layout/awesome-team',
+  'layout/built',
+  'layout/contact-us';
 
 // Page-specific styles
 @import

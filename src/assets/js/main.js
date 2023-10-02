@@ -522,10 +522,56 @@
       }
     });
   });
-  
+
   // Init function billed
   checkBilled();
   checkBilled2();
+
+  $("form").on("submit", async function (event) {
+    event.preventDefault();
+    const emailInput = $("#email");
+    const messageInput = $("#message");
+    const nameInput = $("#name");
+
+    const email = emailInput[0].value;
+    const message = messageInput[0].value;
+    const name = nameInput[0].value;
+
+    if (!name.trim()
+    || !message.trim()
+    || !email.trim()) {
+      alert("It`s can`t be empty");
+      return;
+    }
+
+    if (!email.includes('@')) {
+      alert("Write correct email");
+      return;
+    }
+
+    const data = {
+      email,
+      message,
+      name,
+    };
+
+    await fetch("https://api.byteplex.info/api/test/contact/", {
+      method: "POST",
+      body: data,
+      headers: {
+        ContentType: "application/json",
+      },
+    }).finally(() => {
+      emailInput.val("");
+      messageInput.val("");
+      nameInput.val("");
+    });
+  });
+
+  $("#submit").on("click", function (event) {
+    $("form").trigger("submit");
+  });
+
 })(jQuery);
 // Check billed
 function checkBilled() {

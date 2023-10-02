@@ -1,0 +1,13 @@
+.info {
+  &__heading {
+    display: flex;
+    gap: 12px;
+  }
+
+  &__map,
+  &__phone,
+  &__mail {
+    color: $color-gray-600;
+    font-size: 16px;
+  }
+}
